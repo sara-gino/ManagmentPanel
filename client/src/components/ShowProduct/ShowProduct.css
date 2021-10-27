@@ -1,0 +1,128 @@
+.imgdiv{
+    margin-left: 30px;
+    width: 20px;
+    display: grid;
+    border-right-width:1px;
+    align-items: center;
+}
+.priceBotton{
+    border-top-width:0px ;
+    border-bottom-width: 0px;
+    border-right-width:0px ;
+    border-left-width:0px ;
+    background-color: transparent;
+    text-size-adjust: 18px; 
+}
+.pluseMinuseBotton{
+    margin-left: 1px;
+    border: 1px solid;
+    background-color: transparent;
+    text-size-adjust: 18px;
+}
+.insertPrice{
+    text-align: center;
+    border-top-width:0px ;
+    border-bottom-width: 0px;
+    border-right-width:0px ;
+    border-left-width:0px ;
+    background-color: transparent ;
+}
+.imgShow{
+    width: 40px;
+}
+
+.supplier{
+    border-right-width:1px;
+    width: 250px;
+    display: grid;  
+    text-align: center;
+}
+.Itemname{
+    margin-left: 20px;
+    border-right-width:1px;
+    width: 150px;
+    display: grid;
+}
+.newPrice{
+    width: 130px;
+    padding-right: 30px;
+    text-align: center;
+    border-right-width:1px;
+    display: grid;
+}
+.newPriceChange{
+    text-size-adjust: 0.1px;
+    background-color: red !important ;
+}
+.price{
+    margin-right:30px;
+    padding-right: 10px;
+    border-right-width:1px;
+    display: grid;
+}
+.Barcode{
+    border-right-width:1px;
+    display: grid;
+}
+.containeritem{
+
+    border: solid;
+    color: black;
+    border-bottom-width:1px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.b1{
+    background-color: white;
+}
+.b2{
+    background-color: rgb(243,180,155)
+
+}
+.button{
+    align-items: left;
+}
+.OutButton{
+    display: none;
+}
+.Card{
+    right: 0px;
+    text-align: center;
+    color: rgb(10, 49, 88);
+    margin-right: 10%;
+  
+    margin-bottom:10% ;
+}
+.containeritem1{
+    width: 30px;
+        display: grid;
+        align-items: right !important;
+        text-align: center;
+        grid-template-columns: auto auto auto auto;
+        /* margin: auto; */
+       /* margin-bottom: 100px;
+        margin-right: 70px; */
+    }
+    .griditem{
+        text-align: left;
+        width: 25px;
+        border-radius: 19px;
+        border-color: rgb(214, 44, 44);
+       border-width: 2px;
+       background-color: white;
+    margin: left;
+    }
+    
+    .input{
+        width: 50px;
+        text-align: center;
+    }
